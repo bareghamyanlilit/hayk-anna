@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ whiteSpace: "pre-line" }}
+      <body className="bg-[#FFFDFB]" style={{ whiteSpace: "pre-line" }}
       >
         {children}
       </body>
