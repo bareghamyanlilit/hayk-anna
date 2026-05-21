@@ -127,7 +127,7 @@ export function Home() {
               className=" object-cover relative z-10"
             />
           </div>
-          <div className="w-full absolute z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-50 bg-guyn "></div>
+          <div className="w-full absolute z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-40 bg-guyn "></div>
           <div className="FontBraindDoctor whitespace-nowrap animate-marquee-2 -rotate-2  -translate-x-full">
             Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում
             եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ Սիրում եմ
