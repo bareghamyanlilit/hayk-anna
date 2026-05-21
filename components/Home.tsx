@@ -46,10 +46,10 @@ export function Home() {
             height={500}
             className="w-[95%] ml-0 h-[95vh] rounded-br-[220px]  object-cover "
           />
-          <div className=" absolute top-20 left-5 flex items-center tracking-[25%]  justify-center ">
-            <h2 className="text-2xl mb-20 text-[#FFFDFB] -mr-15">{name[0]}</h2>
-            <span className="text-3xl  text-[#FFFDFB] "> և </span>
-            <h2 className="text-2xl mt-20 text-[#FFFDFB]  -ml-15">{name[1]}</h2>
+          <div className=" absolute top-18 left-10 flex items-center tracking-[25%]  justify-center ">
+            <h2 className="text-3xl mb-23 text-[#FFFDFB] -mr-15">{name[0]}</h2>
+            <span className="text-4xl  text-[#FFFDFB] "> և </span>
+            <h2 className="text-3xl mt-23 text-[#FFFDFB]  -ml-15">{name[1]}</h2>
           </div>
         </div>
 
