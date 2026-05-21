@@ -170,7 +170,7 @@ export function Home() {
           </div>
         </div>
 
-        <Calendar year={2026} month={10} highlightDay={25} />
+        <Calendar year={2026} month={6} highlightDay={20} />
 
         <Program />
 
