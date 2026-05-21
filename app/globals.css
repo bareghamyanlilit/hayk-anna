@@ -152,7 +152,6 @@
 
 
 
-
 /* ....................CRAR................ */
 
 
@@ -181,25 +180,31 @@
 }
 
 @media (max-width: 768px) {
-  @keyframes bounceY {
+  @keyframes bounceYB {
     0% {
-      transform: translateY(0);
-      width: 280px;
-      height: 180px;
-      z-index: 6;
-    }
-    50% {
-      transform: translateY(-200px);
-      z-index: 6;
+      top: 10%;
     }
     100% {
-      width: 280px;
-      height: 180px;
-      z-index: 50;
+      top: -100%;
+      display: none;
     }
   }
 
-  .animate-bounceY {
-    animation: bounceY 2s ease;
+  .animate-bounceYB {
+    animation: bounceYB 2s ease forwards;
+  }
+
+  @keyframes bounceYT {
+    0% {
+      bottom: -60%;
+    }
+    100% {
+      bottom:-180%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYT {
+    animation: bounceYT 2s ease forwards;
   }
 }

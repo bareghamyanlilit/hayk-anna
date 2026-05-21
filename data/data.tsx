@@ -21,37 +21,37 @@ export const txt4 =
   "Մասնակցության մասին\n  Խնդրում ենք\n Տեղեկացնել մինչև \n Հունիսի 10-ը";
 
 export const txt5 =
-  "Վան Արդիում նախատեսվում է նկարահանում. սիրով հրավիրում ենք հյուրերին միանալ մեզ ու միասին գեղեցիկ հիշողություններ կերտել։\n\nՄիևնույն ժամանակ Wine Corner-ում մյուս հյուրերի համար կլինի հյուրասիրություն և հաճելի երաժշտություն 🤍";
+  "Վան Արդիում\n նախատեսվում է նկարահանում. սիրով հրավիրում ենք հյուրերին միանալ մեզ ու միասին գեղեցիկ հիշողություններ կերտել։\n\nՄիևնույն ժամանակ\n Wine Corner-ում մյուս հյուրերի համար կլինի հյուրասիրություն և հաճելի երաժշտություն\n 🤍";
 
 export const program: any = [
   {
     time: "09:00",
     title: "Փեսայի տուն",
-    address: "Երևան Ջրվեժ Թևոսյան 23 բն14",
+    address: "https://yandex.com/maps/10262/yerevan/house/YE0Ycw5iTkAAQFpqfX15d3piZw==/?ll=44.592757%2C40.186613&z=16",
     img: '/jam1.png'
   },
   {
     time: "11:00",
     title: "Հարսնացուի տուն",
-    address: "Քաղաք Արմավիր Բաղրամյան 21/1 բն 39",
+    address: "https://yandex.com/maps/10257/armavir/house/YE0YdgVkT0QAQFpqfX10dn9mZw==/?ll=44.024618%2C40.157353&z=16",
     img: '/jam2.png'
   },
   {
     time: "13:30",
     title: "Եկեղեցի",
-    address: "Տեղերի Վանք",
+    address: "https://yandex.com/maps/org/204381722709/?ll=44.237644%2C40.334148&z=13",
     img: '/jam3.png'
   },
   {
     time: "15:30",
     title: "Նկարահանում ",
-    address: "Վան Արդի",
+    address: "https://yandex.com/maps/org/149834662356/?ll=44.073472%2C40.470125&z=7",
     img: '/jam4.png'
   },
   {
     time: "17:00",
     title: "Հարսանյաց սրահ",
-    address: "Wine Corner",
+    address: "https://yandex.com/maps/org/139778273402/?ll=44.355975%2C40.284220&z=11",
     img: '/jam5.png'
   },
 ];

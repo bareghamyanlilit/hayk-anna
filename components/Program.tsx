@@ -28,7 +28,7 @@ export function Program() {
               />
 
               <Link
-                href={`${el.address ? `https://www.google.com/maps/search/${el.address}` : "#"}`}
+                href={el.address}
                 className={`${i % 2 == 0 ? "text-start" : "text-end"} px-7 self-center `}
               >
                 <motion.h2 {...anim} className="tracking-[25%] text-4xl">
