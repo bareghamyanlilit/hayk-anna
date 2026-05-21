@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family:"ArmDecorativeU" ;
+  src: url('/font/ArmenianDecorativeU-Italic.woff2');
+}
+
+
+@font-face {
+  font-family: "ArmAllegroU";
+  src: url("/font/ArmAllegroU.woff2");
+}
+
+@font-face {
+  font-family:"SHK_Dzeragir" ;
+  src: url('/font/SHK_Dzeragir.woff2');
+}
+
+
+.FontSHK_Dzeragir{
+  font-family: "SHK_Dzeragir";
+  
+}
+@font-face {
+  font-family:"Babylonica-Regular" ;
+  src: url('/font/Babylonica-Regular.ttf');
+}
+
+
+.FontBabylonica-Regular{
+  font-family: "Babylonica-Regular";
+  
+}
+
+.FontArmDecorativeU{
+  font-family: "ArmDecorativeU";
+  
+}
+
+.FontArmAllegroU {
+  font-family: "ArmAllegroU";
+}
+
+
+@font-face {
+  font-family:"OptimaModoki" ;
+  src: url('/font/OptimaModoki.ttf');
+}
+
+
+.FontOptimaModoki{
+  font-family: "OptimaModoki";
+  
+}
+
+@font-face {
+  font-family:"Emin_Script" ;
+  src: url('/font/Emin_Script.ttf');
+}
+
+
+.FontEmin_Script{
+  font-family: "Emin_Script";
+  
+}
+
+
+@font-face {
+  font-family:"ArTarumianBarakU" ;
+  src: url('/font/ArTarumianBarakU-Regular.ttf');
+}
+
+
+.FontArTarumianBarakU{
+  font-family: "ArTarumianBarakU";
+  
+}
+@font-face {
+  font-family:"BraindDoctor" ;
+  src: url('/font/BraindDoctor.otf');
+}
+
+
+.FontBraindDoctor{
+  font-family: "BraindDoctor";
+  
+}
+
+/* latin */
+@font-face {
+  font-family: "Akronim";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/akronim/v23/fdN-9sqWtWZZlHRpygd7kQ.woff2)
+    format("woff2");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+.FontAkronim {
+  font-family: "Akronim";
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee-2 {
+  animation: marquee2 20s linear infinite;
+}
+
+.text-sovorakan{
+  color: #30251d;
+}
+.text-vrayi {
+  color: #30251d;
+}
+.text-taki {
+  color: #30251d ;
+}
+
+
+.bg-guyn{
+  background-color: #30251d;
+}
+
+
+
+
+
+
+
+
+
+/* ....................CRAR................ */
+
+
+@media (min-width: 768px) {
+  @keyframes bounceY {
+    0% {
+      transform: translateY(0);
+      width: 560px;
+      height: 360px;
+      z-index: 6;
+    }
+    50% {
+      transform: translateY(-500px);
+      z-index: 6;
+    }
+    100% {
+      width: 560px;
+      height: 360px;
+      z-index: 50;
+    }
+  }
+
+  .animate-bounceY {
+    animation: bounceY 2s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes bounceY {
+    0% {
+      transform: translateY(0);
+      width: 280px;
+      height: 180px;
+      z-index: 6;
+    }
+    50% {
+      transform: translateY(-200px);
+      z-index: 6;
+    }
+    100% {
+      width: 280px;
+      height: 180px;
+      z-index: 50;
+    }
+  }
+
+  .animate-bounceY {
+    animation: bounceY 2s ease;
+  }
+}
